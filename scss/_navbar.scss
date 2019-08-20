@@ -1,0 +1,35 @@
+nav.navbar {
+  height: 110px;
+  background: transparent !important;
+}
+
+// Logo
+.navbar-brand {
+  position: relative;
+}
+
+.navbar-brand span {
+  font-family: $font-custumer;
+  font-size: 2rem;
+  font-weight: 700;
+  background: transparent;
+}
+
+.navbar-brand img {
+  width: 100px;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  z-index: -1;
+}
+
+// Icon
+.navbar-icon {
+  margin-bottom: 0;
+
+  .fab {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    color: $bg-color;
+  }
+}

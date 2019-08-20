@@ -1,2 +1,42 @@
+nav.navbar {
+  height: 110px;
+  background: transparent !important; }
+
+.navbar-brand {
+  position: relative; }
+
+.navbar-brand span {
+  font-family: "Satisfy", cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  background: transparent; }
+
+.navbar-brand img {
+  width: 100px;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  z-index: -1; }
+
+.navbar-icon {
+  margin-bottom: 0; }
+  .navbar-icon .fab {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+    color: #ff83ac; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 body {
-  background-color: skyblue; }
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.6; }
+
+img {
+  width: 100%;
+  display: block; }

@@ -9,6 +9,7 @@
   <meta name="keywords" content="modas, vendas, modas, roupas femininas, roupas fashion">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/702ea6ae44.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Satisfy&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <title>Store Plugie</title>
@@ -18,7 +19,10 @@
   <!-- Social Network -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <div class="navbar-brand">Store PLugie</div>
+      <div class="navbar-brand">
+        <img src="img/pincel.png" alt="">
+        <span>Store Pluie</span>
+      </div>
 
       <button class="navbar-toggler" data-target="#navbar-mobile" data-toggle="collapse">
         <span class="navbar-toggler-icon"></span>
@@ -33,7 +37,7 @@
           <li class="nav-item"><a href="/" class="nav-link">Contatos</a></li>
         </ul>
 
-        <ul>
+        <ul class="navbar-icon">
           <a href="#"><i class="fab fa-facebook-f"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fab fa-whatsapp"></i></a>
