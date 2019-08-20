@@ -1,6 +1,7 @@
 nav.navbar {
   height: 110px;
   background: transparent !important;
+  border-bottom: 1px solid $bg-color;
 }
 
 // Logo
@@ -21,6 +22,12 @@ nav.navbar {
   top: -15px;
   left: 0;
   z-index: -1;
+}
+
+@media (max-width: 640px) {
+  .navbar-nav {
+    margin-top: 3rem;
+  }
 }
 
 // Icon
